@@ -58,8 +58,8 @@ function tiny(number){
 //getSeconds
 
 function getSeconds(time){
-	var minutes = time[0]+time[1]
-	var seconds = time[3]+time[4]
-	var total = parseInt(minutes)*60+parseInt(seconds)
-	console.log(total)
+	var strArr = time.split(:)
+	secs = ((strArr[0]*1)*60+(strArr[1]*1))
+	// var total = parseInt(minutes)*60+parseInt(seconds)
+	console.log(secs)
 }
